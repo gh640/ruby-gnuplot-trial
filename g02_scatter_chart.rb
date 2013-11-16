@@ -20,7 +20,8 @@ Gnuplot.open do |gp|
         # xとyのデータを配列で渡す
         plot.data << Gnuplot::DataSet.new( [x, y] ) do |ds|
             # 各種オプションの設定
-            ds.with = "linespoints"
+            # ds.with = "linespoints"
+            ds.with = "points"
             ds.notitle
         end
     end
