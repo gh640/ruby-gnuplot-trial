@@ -6,7 +6,9 @@ Rubyからgnuplotを操作するGnuplot gemを試すためのスクリプト集�
 
 # 必要なもの
 - gnuplot本体
+  - http://www.gnuplot.info
 - Gnuplot gem
+  - https://github.com/rdp/ruby_gnuplot
 
 
 # 実行環境
